@@ -1,0 +1,141 @@
+/* font-family: 'Solway', serif; */
+/* font-family: 'Caveat', serif; */
+/* font-family: 'Arapey', serif; */
+
+*{
+    margin: 0 0;
+}
+
+body{
+    background-color: grey;
+    background-size: contain;
+}
+
+.navBar{
+    height: 2cm;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    list-style-type: none;
+    background-image: url("../Images/pewdsPattern.jpg");    position: fixed;
+    top: 0;
+    width: 100%;
+    background-size: contain;
+}
+
+.logo{
+    margin: 15px 5px;
+    width: 300px;
+    height: 40px;
+    background-size: contain;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    font-family: Helvetica;
+    font-weight: bolder;
+}
+
+.dropDown{
+    text-align: right;
+    margin: 10px 30px;
+    color: white;
+    position: relative;
+    display: inline-block;
+}
+
+.dropBtn{
+    padding: 2px 6px;
+    border-radius: .2em;
+    background-size: contain;
+}
+
+a{
+    text-decoration: none;
+    font-family: Caveat, serif;
+}
+
+.dropContent{
+    display: none;
+    background-color: grey;
+    position: absolute;
+    text-align: left;
+    width: 180px;
+    padding: 10px 5px;
+    right: 0;
+    color: black;
+    font-weight: bolder;
+    margin: 12px 0;
+}
+
+.mainPage video{
+    margin-top: 2cm;
+    width: 100%;
+    background-size: cover;
+}
+
+.memePage{
+    display: none;
+    margin: 2cm 15%;
+    text-align: center;
+    background-color: rgb(255, 0, 64);
+    justify-content: space-between;
+}
+
+h3{
+    text-align: left;
+    padding-left: 5px;
+    color: blue;
+    text-decoration: underline;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+h4{
+    text-align: left;
+    padding-left: 5px;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+div>div{
+    padding-top: 1cm;
+    margin-bottom: 20px;
+}
+
+.check{
+    color:grey;
+    text-align: left;
+    padding-left: 5px;
+    padding-bottom: 10px;
+}
+
+div img{
+    width: 100%;
+}
+
+.aboutPage{
+    display: none;
+    margin: 2cm 15%;
+    text-align: center;
+    background-color: rgb(255, 0, 64);
+    font-family: Arapey, serif;
+    font-size: 25px;
+}
+
+p{
+    padding: 5px 10px;
+}
+
+.b#tch{
+    text-align: left;
+}
+
+.contactPage{
+    display: none;
+    margin: 2cm 15%;
+    text-align: center;
+    background-color: rgb(255, 0, 64);
+}
+
+.subLink{
+    font-size: 50px;
+}
