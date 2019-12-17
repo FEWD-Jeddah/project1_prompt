@@ -1,0 +1,33 @@
+
+
+.body {
+background-repeat: round;
+background-image: url(img/ahmed-rizkhaan-FFIBmeA_zd0-unsplash.jpg);
+ 
+}
+.h1{
+    font-size: 60px;
+   color: #ffffff;
+}
+
+.Start { 
+    border: 2px solid transparent; 
+    outline :0;
+    widows: 600px;;
+    height: 100px;
+    border-radius:20px;
+    background: #FFF;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    box-shadow : 0 0 12px rgb ( 0 ,0,0,.5) ;
+    color: #000000;
+ display: flex;
+ justify-content: center;
+
+}
+
+a{
+    text-decoration: none;
+    text-decoration-style: none;
+}
