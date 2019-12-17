@@ -1,0 +1,179 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+.navigation{
+    padding: 5px 0;
+   }
+   .navigation_content{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    height:100px;
+   }
+   
+   .navigation #logo img {
+    width: 200px;
+    height: 100px;
+    float: left;
+   
+   }
+   nav{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color:lightgray;
+    padding: 2%;
+   }
+   .logo2 img{
+       height: 100px;
+       width: 100px;
+   }
+
+
+   .navigation nav a{
+    padding: 0 20px;
+    display: block;
+   
+    color: black;
+    text-decoration: none;
+   }
+   
+   .navigation{
+    background-color: snow;
+    border-radius: 5px;
+    padding: 5px 10px;
+   }
+
+   /* .img{
+       height: 400px;
+       width: 1000px;
+   }
+    */
+    .main{
+        background-image: url("new1.jpeg");
+        height: 600px;
+        background-size: cover;
+        margin-bottom: 20px;
+    }
+    img{
+        height: 100%;
+        width: 100%;
+    }
+    .text{
+        float: right;
+        height: 60px;
+        width: 300px;
+    }
+
+    .text2{
+        float: right;
+        height: 100px;
+        width: 200px;
+        
+    }
+    .text-6{
+        float: right;
+        height: 100px;
+        width: 400px;
+
+    }
+/* services */ 
+/* .grid{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 2fr 1fr ;
+    margin-left:20px;
+    background-color: white;
+}
+.grid img{
+    height: 80px;
+    width: 80px;
+
+} */
+
+.img-1{
+    height: 90%;
+    width:90%;
+    margin-right: 10px;
+    margin-left: 40px;
+}
+
+.img-3{
+    height: 30%;
+    width: 30%;
+    margin-right: 30px;
+    float: right; 
+    
+    
+    }
+    
+    /* margin-left: 40px; */
+
+/* end about us */
+.grid{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr ;
+    margin-left:20px;
+    background-color: white;
+}
+.grid img{
+    height: 350px;
+    width: 70%;
+}
+.grid p{
+  text-size-adjust: 300px;
+}   
+.grid h2{
+    text-size-adjust: 10px;
+    color: darkslateblue;
+  } 
+  .grid h3{
+      font-size: 17px;
+      height: 100px;
+      width: 500px;
+  }  
+
+  footer{
+    padding:20px;
+    margin-top:240px;
+    color:black;
+    background-color: lightgrey;
+    text-align: center;
+    
+  }
+ li{
+     height: 130px;
+     width: 200px;
+    padding: 0px;
+    font-size: 20px;
+    color: #8b3d3d;
+ }
+
+ h4{
+font-size: 35px;
+text-align: center;
+background-color: rgb(133, 123, 123,0.5);
+}
+.ol li{
+    height: 80px;
+    width: 300px;
+   font-size: 18px;
+   color:black;
+
+}
+h3{
+    width: 400px;
+}
+ h5{
+     font-size: 16px;
+ }
+ a{
+     font-size: 18px;
+     background-color: lightyellow;
+ }
