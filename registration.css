@@ -1,0 +1,62 @@
+body{
+    background-image: url(images/education.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.login-page{
+    width: 350px;
+    padding: 10% 0 0;
+    margin: auto;
+}
+
+.form{
+    position: relative;
+    z-index: 1;
+    background-color: rgb(163, 133, 133);
+    max-width: 350px;
+    margin: 0 auto 100px;
+    padding: 50px;
+    text-align: center;
+}
+
+.form input{
+    font-family: Arial, Helvetica, sans-serif;
+    outline: 1;
+    background-color: #f2f2f2;
+    border: 0;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+button{
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: #4cfaf5;
+    width: 80%;
+    border: 1px solid black;
+    font-size: 14px;
+    cursor: pointer;
+    padding: 10px;
+}
+.form button:hover, .form button:active{
+    background-color: gray;
+}
+
+.form .massage{
+    margin: 15px;
+    color: rgb(78, 76, 76);
+    font-size: 1rem;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/* .form .register-form{
+    display: none;
+} */
