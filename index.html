@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/ec8fa4b4f1.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https:///cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+        integrity="sha256-NuCn4IvuZXdBaFKJOAcsU2Q3ZpwbdFisd5dux4jkQ5w=" crossorigin="anonymous" />
+    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div id="header" class="container">
+            <div id="logo">
+                <i class="icon fas fa-cube"></i>
+                <h1><a href="#">Unit Online Converter</a></h1>
+                <span>developed by BayanAlharbi</span>
+            </div>
+            <div id="menu">
+                <ul>
+                    <li><a href="index.html" aria-selected="true">Homepage</a></li>
+                    <li><a href="suggest.html">Suggest Unit</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="content">
+        <div class="type">
+            <select class="type">
+                <option selected>Please Select</option>
+                <option value="1">Lenght</option>
+                <option value="2">Wieght</option>
+                <option value="3">Temperture</option>
+            </select>
+        </div>
+        <div class="secound">
+            <label for="Select">FROM</label>
+            <select class="from">
+            </select>
+            <label for="Select">To</label>
+            <select class="to">
+            </select>
+        </div>
+        <input type="number" placeholder="Please Enter a Number "class="value" value="value">
+        <div class="outbut"></div>
+        <input id="convert"class="convert "type="submit" value="convert">
+    
+
+
+    </div>
+
+
+    <div id="copyright">
+        <p>&copy; 2019. All rights reserved. </p>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
