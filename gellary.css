@@ -1,0 +1,57 @@
+body, #slide, .wrap, .slide-content{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    height: 100vh;
+    overflow-x:hidden ;
+}
+
+.wrap{
+    position: relative;
+}
+
+.slide{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.slide1{
+    background-image: url(images/people.jpeg);
+}
+
+.slide2{
+    background-image: url(images/person.jpeg);
+}
+
+.slide3{
+    background-image: url(images/hands.jpeg);
+}
+.slide4{
+    background-image: url(images/entry.jpeg);
+}
+
+.slide-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.arrow{
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    border-style: solid;
+}
+
+
+#arrow-right{
+    border-width: 30px 0px 30px 40px;
+    border-color: transparent transparent transparent #fff;
+    right: 0;
+}
+
