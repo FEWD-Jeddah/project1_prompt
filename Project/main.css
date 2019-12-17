@@ -1,0 +1,227 @@
+
+/* ============ General ============ */
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: whitesmoke;
+    font-family: 'Delius';
+
+}
+.container{
+
+    width: 80%;
+    margin: 0 auto;
+
+}
+/* 
+footer{
+    text-align: center;
+    padding-bottom: 1em;
+  
+} */
+
+
+
+/* ============= Index ============ */
+
+header{
+
+    height: 5em;
+    position: relative;
+    background-color:rgb(46, 45, 45);
+padding-top: 1.5em; 
+/* margin-bottom: 5%;  */
+
+}
+
+.top__menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.menu a{
+
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-left: 30px;
+    color:white;
+
+}
+
+.books{
+
+margin: 5em;
+/* height: 40em; */
+
+
+}
+
+
+.books_container{
+
+    /* margin: 5em; */
+    height: 35em;
+    padding-top: 1em;
+    padding-left: 2em;
+    
+    
+    }
+
+    .backgraound{
+        background-image: url("./images/books.jpg"); 
+        background-size: cover; 
+background-color: gray;
+background-blend-mode: multiply;
+        height: 500px;
+        /* margin-top: 5%;   */
+    }
+
+    .qutoe{
+        color:whitesmoke;
+        text-align: center;
+        font-size: 40px;
+        padding: 1%;
+        border: 3px solid  whitesmoke;  
+        /* align-content: center; 
+        align-items: center; */
+        /* margin-top: 5%;  */
+        position: absolute;
+
+    }
+    .qu{
+        padding-top: 14em;
+        align-content: center;
+        padding-left: 26em;
+    }
+
+
+.footer{
+    background-color:rgb(46, 45, 45);
+    width: 100%;
+    margin: 0;
+    height: 80px;
+    padding-top: 2em;
+    text-align: center;
+    color: white;
+
+}
+
+/* ============== Form ============= */
+
+.form{
+    padding-top: 3em;
+    align-items: center; 
+    width: 50%;
+    margin: 0 auto;
+    color:     rgb(255, 0, 149);
+
+}
+
+/* form>div{
+width: 200px;
+height: 300px;
+border: dashed lightgrey;
+
+} */
+
+.cp>div{
+    display: flex;
+    /* justify-content: space-between; */ 
+    padding-right: 3em;
+    
+}
+input{
+
+    border: 2px solid lightgrey;
+    
+}
+/* input:nth-child(1){
+    height: 2em;
+    width: 15em;
+}
+
+input:nth-child(2){
+    height: 2em;
+    width: 15em;
+}
+
+input:nth-child(3){
+    height: 2em;
+    width: 30em;
+} */
+/* 
+input:nth-child(4){
+    height: 2em;
+    width: 30em;
+}  */
+
+.email, .an{
+width:300px;
+height: 25px;
+}
+
+.fn , .ln{
+    width:150px;
+    height: 25px;
+}
+
+textarea{
+
+    border: 2px solid lightgrey;
+    /* width:150px; */
+
+}
+
+.send{
+    width:150px;
+    height: 25px;
+    font-family: 'Delius';
+
+}
+
+
+/* ============ Book ========= */
+
+.book__desc{
+
+height: 30em;
+text-align: left;
+margin: 5em;
+
+
+}
+/* 
+p:nth-child(2){
+    width:50px
+} */
+
+p{
+    font-size: 18px;
+}
+
+h1{
+    font-size: 35px;
+    color: rgb(255, 0, 149);
+
+}
+
+h3{
+font-size: 24px;
+color: rgb(255, 0, 149);
+
+}
+
+nav>a:hover{
+    color: rgb(255, 0, 149);
+    /* font-size: 150%; */
+}
