@@ -1,0 +1,250 @@
+/* --------------------------------------------------------------------index.html styles------------------------------------------------------------------------------- */
+
+.mid_content img{
+    width: 90rem;
+    height:30rem;
+}
+
+header{
+    height:     13em;
+    position:   relative;
+}
+
+.top_menu{
+    display:            flex;
+    justify-content:    space-between;
+    align-items:        center;    
+    background-color:   rgb(165, 46, 165);
+}
+
+.top_menu img{
+    display: block;
+    border: 3px solid purple;
+}
+
+.wb_top_menu a{
+    text-decoration:    none;
+    color:              white;
+    margin-left:        30px;
+    margin-right:       10px;
+}
+
+.top_banner{
+    width:          30%;
+    margin-right:   auto;
+    margin-bottom:  30px;
+    text-align:     left; 
+    color:          purple;
+}
+
+.top_banner h5{
+    color:          peru;
+    margin-left:    30px;
+}
+
+.desc_after_cont {
+    font-size:      large;
+    text-align:     center;
+    color:           plum;
+}
+
+.desc_after_cont p{
+    margin-left: -5%;
+    color:       rgb(143, 106, 144);
+}
+
+footer{
+    display:            flex;
+    justify-content:    center;
+    margin-bottom:      1rem;
+}
+
+footer a{
+    margin-bottom:      2rem;
+    margin-left:        2rem;
+    text-decoration:    none;
+    border:             0px solid white;
+    color:               purple;
+}
+
+.footer_web{
+    border-top: 3px solid black;
+}
+/*----------------------------------------------------------------------Index.html styles end----------------------------------------------------------------------------*/
+/*-------------------------------------****************************************************************************------------------------------------------------------*/
+
+/*---------------------------------------------------------------------products.html styles------------------------------------------------------------------------------*/
+.products{
+    border-top: 4px solid purple;
+}
+
+.row1 {
+    margin-top:         15px;
+    display:            flex;
+    flex-wrap:          wrap;
+    margin-left:        -15px;
+    margin-right:       -15px;
+    justify-content:    center;
+}
+
+.col-4 {
+    width:          25%;
+    padding-left:   15px;
+    padding-right:  15px;
+}
+
+.card {
+    border:             3px solid black;
+    background-color: white;
+    padding:            1.5rem;
+    border:             1px solid #e9ecef !important;
+    margin-bottom:      10px;
+}
+
+.card img{
+    width:          15rem;
+    height:         15rem;
+    display:        block;
+    margin-left:    auto;
+    margin-right:   auto;
+}
+
+.card h3{
+    background-color: yellow;
+    text-align:         center;
+}
+
+.footer_guide{
+    margin-top: 15px;
+}
+
+.calorie_info h3{
+    text-align: center;
+}
+
+.calorie_info img{
+    display:        block;
+    margin:         auto;
+    width:          40rem;
+    align-items:    center;
+}
+
+#prod_head3{
+    text-align:     center;
+    font-size:      25px;
+    font-weight:    800;
+    font-family:    sans-serif;
+}
+
+.ad img{
+    display:        block;
+    margin-left:    auto;
+    margin-right:   auto; 
+}
+/*---------------------------------------------------------------------products.html styles End--------------------------------------------------------------------------*/
+/*----------------------------------------************************************************************************************-------------------------------------------*/
+
+/*---------------------------------------------------------------------about.html styles --------------------------------------------------------------------------------*/
+.location_details div{
+    margin-left: 8em;
+}
+
+.location_details img{
+    display:        block;
+    width:          50rem;
+    height:         30rem;
+    margin-left:    8em;
+    margin-right:   auto;
+    border:         3px solid black;
+}
+
+.store_location {
+    position: relative;
+  }
+
+  .image-hover {
+    position:   absolute;
+    top:        0;
+    left:       0;
+    opacity:    0;
+    transition: opacity 1s ease-out;
+  }
+  .image-hover:hover {
+    opacity: 1;
+  }
+
+  .store_descripton{
+    display:        flex;
+    margin-left:    0px;
+    margin-right:   100px;
+  }
+/*---------------------------------------------------------------------about.html styles End-----------------------------------------------------------------------------*/
+/*----------------------------------------************************************************************************************-------------------------------------------*/
+
+/*---------------------------------------------------------------------contact_us.html styles ---------------------------------------------------------------------------*/
+.contact_info_wrapper h2{
+    text-align: center;
+}
+
+.social_icons{
+      display:          flex;
+      justify-content:  center;
+  }
+
+.social_icons img{
+    display:        block;
+    width:          3rem;
+    height:         3rem;
+    margin-left:    1rem;
+    margin-right:   1rem;
+}
+
+.whatsapp_num{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.filler{
+    margin-bottom: 10em;
+}
+
+.send_inquiry{
+    display:            flex;
+    margin-left:        auto;
+    margin-right:       auto;
+    margin-bottom:      10px;
+    justify-content:    center;
+    align-content:      space-between;
+}
+
+/*---------------------------------------------------------------------contact_us.html styles End------------------------------------------------------------------------*/
+/*----------------------------------------************************************************************************************-------------------------------------------*/
+
+/*---------------------------------------------------------------------cookie_store.html styles -----------------------------------------------------------------------*/
+.imagecookie{
+    display: block;
+    margin-left:        0;
+    margin-right:       0;
+    margin-bottom:      20px;
+    width:              2040;
+    height:             40rem;
+    background:         url("..//CSS/images/cookies/background.JPG");
+    background-repeat:  no-repeat;
+    background-size:    cover;
+}
+
+.cookie_banner {
+    text-align:     center;
+    font:           400 30px/0.8 'Cookie', Helvetica, sans-serif;
+    color:         rgb(0, 0, 0);
+    text-shadow:    4px 4px 3px rgba(0,0,0,0.1);
+}
+
+/*--------------------------------------------------------------------cookie_store.html styles end------------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------Terms and Condition.html styles-----------------------------------------------------------------------*/  
+#terms strong{
+      margin-left:      10px;
+      text-decoration:  underline;
+}
+/*----------------------------------------------------------------Terms and Condition.html styles end----------------------------------------------------------------------*/
