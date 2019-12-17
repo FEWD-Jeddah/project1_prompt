@@ -90,7 +90,7 @@ $(function(){
 
     $("#choco_quiz").on("click",function(){
         Swal.fire({
-            title:'Leaving so Soon?',
+            title:'Leaving so Soon -_-',
             text:'You are about to leave this webpage, do you want to continue?',
             icon:'question',
             showCancelButton: true
