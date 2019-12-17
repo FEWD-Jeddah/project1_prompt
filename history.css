@@ -1,0 +1,39 @@
+body{
+    background-image: url(https://www.dailyecho.co.uk/resources/images/4984733/);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 300px;
+}
+
+.historylist{ 
+    display: grid;
+    justify-content: space-around;
+    font-family: cursive;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+}
+
+h1{
+    font-family: cursive;
+    text-align: center;
+    font-size: 60px;
+    color: rgba(255, 115, 0, 0.822);
+    text-shadow: 8px 5px rgba(0, 204, 255, 0.349);
+  
+}
+
+a:link{
+text-decoration: none;
+  color:white;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: rgba(24, 166, 231, 0.527);
+  
+
+}
+
+
+a {
+    color: white;
+  }
