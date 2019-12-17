@@ -1,0 +1,17 @@
+h1{
+    font-family: cursive;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    text-shadow: 2px 5px rgb(0, 204, 255);
+
+}
+
+
+.images{
+    text-align: center;
+    justify-content: space-around;
+}
+
+body{
+    background: rgba(0, 0, 0, 0.055);
+}
