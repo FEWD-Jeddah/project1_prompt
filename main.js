@@ -123,7 +123,20 @@ $(".upoadbtn").click(function(){
 $("#imgInp").click();
 });
 
-//==================================================================
+//==================== Radio Btns ======================================
+
+$(".whitelabelmock").click(function(){
+// console.log(location.href);
+$("#whitechecked").prop("checked", true);
+$(".mock__img").attr('src', "imgs/whiteshirtmock.png");
+
+});
+$(".blacklabelmock").click(function(){
+    // console.log(location.href);
+    $("#blackchecked").prop("checked", true);
+    $(".mock__img").attr('src', "imgs/blackshirtmock.png");
+    //blackshirtmock.png
+    });
 
 //===============================================================================================================
 

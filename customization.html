@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
     <link rel="stylesheet" href="animate.css">
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="custom.css">
     <link rel="stylesheet" href="slick/slick.css">
     <link rel="stylesheet" href="slick/slick-theme.css">
 </head>
@@ -46,8 +47,8 @@
                 <div class="banner">
                     <div class="banner__content">
                         <h1>StixKSA</h1>
-                        <h4>Upload Your Awesome Picture and let the magic happen 
-                             </h4><span style='font-size:70px;'>&#128085;</span>
+                        <h4>Upload Your Awesome Picture and let the magic happen
+                        </h4><span style='font-size:70px;'>&#128085;</span>
                     </div>
                 </div>
 
@@ -68,33 +69,40 @@
     <!-- <section id="customize__order" class="py-3">
 
     </section> -->
-        <!-- container reviews2 -->
+    <!-- container reviews2 -->
 
-    <!-- <div class="mock__cont ">
-        <ul>
-            <li> <input type="radio" name="color" value="White">
-                <label for="f-option">White Color</label>
-                <div class="check"></div>
-            </li>
-            <li> <input type="radio" name="color" value="Black">
-                <label for="s-option">Black Color</label>
-                <div class="check">
-                    <div class="inside"></div>
-                </div>
 
-            </li>
-        </ul>
-
-    </div> -->
 
 
     <section id="customize__order" class="py-3">
 
-        <input type="file" id="imgInp" class="inputfile" /> 
+
+        <div class="mock__cont">
+        <ul class="radiobtns">
+            <h2>Choose Your favorite Color:</h2>
+
+            <li class="radioslct"> 
+                <input type="radio" name="color" checked id="whitechecked"  value="White">
+                <label class="whitelabelmock" for="f-option">White Color</label>
+                <div class="check"></div>
+            </li>
+            <li class="radioslct">
+                 <input type="radio" name="color" id="blackchecked" value="Black">
+                <label class="blacklabelmock" for="s-option">Black Color</label>
+                <div class="check">
+                    <!-- <div class="inside"></div> -->
+                <!-- </div> -->
+
+            </li>
+        </ul>
+
+         </div>
+
+        <input type="file" id="imgInp" class="inputfile" />
         <label for="file" class="upoadbtn">Upload Image</label>
 
         <img id="blah" class="custom__img" src="#" alt="Custom Image" />
-        
+
         <div class="mock__cont container reviews2">
             <img class="mock__img" src="imgs/whiteshirtmock.png">
         </div>
@@ -106,7 +114,7 @@
     <section id="reviews" class="py-3">
         <div class="submit">
             <!-- <h2>Confirm Order</h2> -->
-            <div >
+            <div>
                 <button class="submit__btn">Submit Order</button>
             </div>
         </div>
