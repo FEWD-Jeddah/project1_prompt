@@ -1,0 +1,531 @@
+/* 
+#f2f4f
+background-image: linear-gradient(150deg, #53f 15%, #05d5ff 70%, #a6ffcb 94%);
+  transform: skewY(-7deg);
+  transform-origin: top left; */
+
+/* ================ General=================== */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    /* font-family: sans-serif; */
+    font-family: Impact, Charcoal, sans-serif;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    color: #000000;
+    /* font-size: 20px; */
+    text-decoration: none;
+    background-color: #f7da5c;
+    background-image: linear-gradient(to top right, #ec9d0b, #ffdd1d);
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.py-3 {
+    padding: 2rem 0;
+}
+
+/* img{
+    width: 50%;
+    height: 50%;
+} */
+
+/* ================ Body =================== */
+
+/* ============ header ========== */
+
+header {
+    height: 35em;
+    position: relative;
+    color: snow;
+    /* the words color */
+    /* overflow: hidden; */
+}
+
+.hamburger {
+    display: none;
+}
+
+.web__menu a {
+    margin-left: 30px;
+    /* font-family: Impact, Charcoal, sans-serif; */
+    font-size: 28px;
+    -webkit-text-stroke: 2px #e7cb2c;
+    /* letter-spacing: 2px; */
+    /* word-spacing: 2px; */
+    color: #000000;
+    font-weight: 700;
+    text-decoration: none;
+    /* font-style: normal; */
+    /* font-variant: normal; */
+    /* text-transform: none; */
+}
+
+.partner__items img {
+    /* border: solid black; */
+    border-radius: 1em;
+    
+    width: 20rem;
+    height: auto;
+    bottom: 0;
+    top: 2px;
+    left: 15px;
+    right: 15px;
+    z-index: -1;
+    border-radius: 30px;
+    box-shadow: 0 0 30px 2px rgb(245, 209, 8);
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.3), 0 0 20px rgba(0, 0, 0, 0.1) inset;
+}
+
+.store__items img {
+    /* border: solid black; */
+    border-radius: 1em;
+    width: 300px;
+    height: 240px;
+    bottom: 0;
+    top: 2px;
+    left: 15px;
+    right: 15px;
+    z-index: -1;
+    border-radius: 30px;
+    box-shadow: 0 0 30px 2px rgb(245, 209, 8);
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.3), 0 0 20px rgba(0, 0, 0, 0.1) inset;
+}
+
+.prices {
+    margin-left: 33.33%;
+}
+
+.mobile__menu {
+    display: none;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.mobile__menu a {
+    color: snow;
+    text-decoration: none;
+    display: block;
+}
+
+.banner {
+    width: 30%;
+    /* margin-left: auto; */
+    text-align: left;
+    color: #e7cb2c;
+}
+
+.shadow img {
+    float: right;
+}
+/* ==========================================+++++++++++++++++++++++++++++++++++++++ */
+#intro .container{
+    position: relative;;
+
+z-index: 1;
+}
+
+.skew {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    /* background-image: linear-gradient(to bottom right, rgb(255, 166, 0), rgba(255, 217, 0, 0.959)); */
+    background-image: linear-gradient(to bottom right, rgb(36, 36, 36), rgba(0, 0, 0, 0.959));
+    transform: skewY(-15deg);
+    transform-origin: top left;
+    background: black url(http://www.script-tutorials.com/demos/360/images/stars.png) repeat top center;
+    /* animation: move-stars 2000ms  infinite; */
+    /* z-index:1; */
+}
+
+
+
+@keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+} 
+
+.stars, .twinkling {
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    width:100%;
+    height:100%;
+    display:block;
+
+    background-image: linear-gradient(to bottom right, rgb(36, 36, 36), rgba(0, 0, 0, 0.959));
+    transform: skewY(-15deg);
+    transform-origin: top left;
+  }
+
+  .stars {
+    background:#000 url(http://www.script-tutorials.com/demos/360/images/stars.png) repeat top center;
+    z-index:0;
+  }
+  
+  .twinkling{
+  background: transparent url(http://www.script-tutorials.com/demos/360/images/twinkling.png) repeat top center;
+    z-index: 1;
+    -moz-animation:move-twink-back 200s linear infinite;
+    -ms-animation:move-twink-back 200s linear infinite;
+    -o-animation:move-twink-back 200s linear infinite;
+    -webkit-animation:move-twink-back 200s linear infinite;
+    animation:move-twink-back 200s linear infinite;
+  }
+  /* +++++++++++++++++++++++++++++++++++============================== */
+.top__menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* ====== columns & rows ========  */
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.col-4 {
+    width: 50%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.card {
+    background-color: rgb(245, 209, 8);
+    padding: 1rem;
+    /* border: 3px solid #000000 !important; */
+    /* width:40%; */
+    /* height:200px; */
+    /* float:left; */
+    /* background-color:white;  */
+    /* margin:25px 15px; */
+    border-radius: 15px;
+    /* -webkit-text-stroke: 1px #e7cb2c; */
+}
+
+.shadow {
+    /* content:""; */
+    /* position:absolute; */
+    bottom: 0;
+    top: 2px;
+    left: 15px;
+    right: 15px;
+    z-index: -1;
+    border-radius: 30px;
+    box-shadow: 0 0 30px 2px rgb(245, 209, 8);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3), 0 0 20px rgba(0, 0, 0, 0.1) inset;
+}
+
+.reviews2 {
+    bottom: 0;
+    top: 2px;
+    left: 15px;
+    right: 15px;
+    z-index: -1;
+    /* background-color: rgb(245, 209, 8); */
+    border-radius: 30px;
+    box-shadow: 0 0 30px 2px rgb(245, 209, 8);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3), 0 0 20px rgba(0, 0, 0, 0.1) inset;
+}
+
+.mock__cont img {
+    justify-content: center;
+    /* margin-left: 15%; */
+}
+
+.price {
+    margin: 2.8rem 0;
+    font-size: 1.5rem;
+}
+.card h3{
+    font-size: 2rem;
+
+}
+
+.desc {
+    margin: 2.8rem 0;
+}
+
+#reviews .container {
+    text-align: center;
+    background-color: rgb(245, 209, 8);
+}
+
+.submit__btn {
+    background-color: black;
+    border: none;
+    color: #f4d136;
+    border-radius: 15px;
+    font-family: Impact, Charcoal, sans-serif;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.card button {
+    background-color: black;
+    border: none;
+    color: #f4d136;
+    border-radius: 15px;
+    font-family: Impact, Charcoal, sans-serif;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    /* display: inline-block; */
+    font-size: 20px;
+    -webkit-text-stroke: 1px #e7cb2c;
+    /* margin: 4px 2px; */
+    cursor: pointer;
+}
+
+/*============== styling radio btn ==================*/
+
+/* ========================================================= */
+.submit {
+    margin-left: 45%;
+    justify-content: center;
+}
+
+/* =============== end on radio styling ========================  */
+
+/* ============== Styling the upload customer img =========================  */
+
+.custom__img {
+    z-index: 3;
+    /* float: left; */
+    position: absolute;
+    margin-top: 15rem;
+    margin-left: -17rem;
+    max-height: 30rem;
+    max-width: auto;
+    /* padding-top: 15%; */
+    /* padding-left: 24%; */
+    width: 25rem;
+    height: auto;
+    visibility: hidden;
+}
+
+#customize__order {
+    justify-content: center;
+    align-content: center;
+    margin-top: -11%;
+}
+
+#imgInp {
+    visibility: hidden;
+    display: none;
+    justify-content: center;
+    text-align: center;
+    background-color: black;
+    border: none;
+    color: #f4d136;
+    border-radius: 15px;
+    font-family: Impact, Charcoal, sans-serif;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.upoadbtn {
+    /* visibility: hidden; */
+    background-color: black;
+    border: none;
+    color: #f4d136;
+    border-radius: 15px;
+    font-family: Impact, Charcoal, sans-serif;
+    padding: 15px 32px;
+    /* text-align: center; */
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 43%;
+    margin-bottom: 1em;
+}
+
+/* ==========================================  */
+
+/* .inputfile{
+
+    width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+    z-index: -1;
+    
+} */
+
+.inputfile:focus+label {
+    outline: 1px dotted #000;
+    outline: -webkit-focus-ring-color auto 5px;
+}
+
+.inputfile+label {
+    font-size: 1.25em;
+    font-weight: 700;
+    color: f4d136;
+    background-color: black;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.inputfile:focus+label, .inputfile+label:hover {
+    background-color: #f4d136;
+    color: black;
+    /* border: dotted black; */
+}
+
+.submit__btn:hover {
+    background-color: #f4d136;
+    color: black;
+}
+
+/*==========================*/
+
+#contacts .cont__container {
+    text-align: center;
+    /* z-index: -1; */
+    /* background-color: rgb(245, 209, 8); */
+}
+
+.cont__container img {
+    z-index: 1;
+    max-width: 15%;
+    max-height: 15%;
+}
+#contacts{
+position: relative;
+z-index: 1;
+margin-top: -15%;
+
+}
+
+/*=======Social Media icons styling===========*/
+.fa {
+    padding: 20px;
+    font-size: 100px;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 1em;
+  }
+  #social__media{
+      display: flex;
+      justify-content: center;
+      /* font-size: 50%; */
+  }
+
+
+  /* ===================styling the hover on the menu btns ==================== */
+  .menu__btn__hover:hover {
+      opacity: 0.5;
+  }
+  /* ============================================= */
+
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+
+}
+
+.fa-google {
+    background: #dd4b39;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+/*===========================================*/
+
+.shirtslabels{
+    color: #ebdc0c;
+    -webkit-text-stroke: 2px #000000;
+    font-size: 5rem;
+    /* box-shadow: 0 0 30px 2px rgb(245, 209, 8); */
+    /* box-shadow: 5px 10px 18px rgba(0, 0, 0, 0.3) inset; */
+}
+
+/*==================Styling the prices=====================*/
+
+.prices{
+    font-size: 2rem;
+}
+
+.lightcolor{
+color: snow;
+
+}
+.darkcolor{
+color: black;
+}
+.buy__btn:hover{
+    background-color: #c5a929;
+    color: black;
+}
+
+/* .but__btn{
+
+    display: flex;
+    align-content: center;
+} */
+/*===========================================*/
+
+
+
+
+
+/* ================ Responsive =================== */
+
+@media only screen and (max-width: 480px) {
+    .col-4 {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+    .banner {
+        width: 100%;
+        text-align: center;
+    }
+    .hamburger {
+        display: block;
+    }
+    .web__menu {
+        display: none;
+    }
+}
+
+@keyframes move-stars {
+    /* from {background-position:0 0;}
+    to {background-position:10000px 0;} */
+    from {
+        /* bak-visibility: visible; */
+        background: black url(http://www.script-tutorials.com/demos/360/images/stars.png) repeat top center;
+        opacity: 0;
+    }
+    to {
+        /* backface-visibility: unset; */
+        opacity: 1;
+        background: black repeat top center;
+    }
+}
