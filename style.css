@@ -1,0 +1,127 @@
+/* == General */
+body{
+    background-color: whitesmoke;
+    text-align: center;
+}
+.start img{
+    margin:auto;
+    padding-top:200px;
+    display: block;
+}
+.start button{
+    font: 20px 'Merienda One', Helvetica, sans-serif;
+    color: rgba(0,0,0,0.7);
+    margin:auto;
+    margin-top:30px;
+    display: block;
+    background-color: rgb(243, 113, 113);
+    padding: 10px 20px 10px 20px ;
+}
+.home{
+    font: 15px 'Merienda One', Helvetica, sans-serif;
+    color: rgba(0,0,0,0.7);
+    margin-top:100px;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+   background-color: rgb(243, 113, 113);
+   padding: 10px 40px 10px 40px ;
+   position: relative;
+   left:555px;
+  
+}
+div>.home:last-of-type{
+    position: relative;
+    left:50px;
+}
+/* == Body == */
+.btn1,.btn2,.btn3,.btn4,.btn5,.btn6,.btn7,.btn8,.btn9{
+    font: 20px 'Merienda One', Helvetica, sans-serif;
+    color: rgba(0,0,0,0.7);
+    margin-top:100px;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+   background-color: rgb(243, 113, 113);
+   padding: 10px 40px 10px 40px ;
+
+}
+.levels{
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr;
+    grid-gap:2px;
+
+   
+}
+.return{
+    margin-right:60px;
+    margin-bottom:1px;
+    margin-top:200px;
+    float: right;
+   background-color: rgb(243, 113, 113);
+   padding: 10px 20px 10px 20px ;
+   font: 15px 'Merienda One', Helvetica, sans-serif;
+    color: rgba(0,0,0,0.7);
+}
+.check1,.check2,.check3,.check4,.check5,.check6,.check7,.check8,.check9 {
+  background-color: rgb(243, 113, 113);
+   margin-top:20px;
+   padding: 5px 5px 5px 5px ;
+   position: relative;
+   left:10px;
+   font: 15px 'Merienda One', Helvetica, sans-serif;
+   color: rgba(0,0,0,0.7);
+ 
+   
+  }
+ 
+  .next1, .next2,.next3,.next4,.next5,.next6,.next7,.next8{
+    background-color: rgb(243, 113, 113);
+    margin-top:20px;
+    padding: 5px 5px 5px 5px ;
+    position: relative;
+    left:60px;
+    font: 20px 'Merienda One', Helvetica, sans-serif;
+    color: rgba(0,0,0,0.7);
+    
+
+  }
+  input{
+      position: relative;
+      left:0.3px;
+      padding: 5px 5px 5px 5px ;
+      margin-top:20px;
+  }
+  div{
+    font: 200 50px/1.2 'Merienda One', Helvetica, sans-serif;
+    color: rgba(0,0,0,0.7);
+    text-shadow: 3px 3px 3px #fff;
+  }
+
+div img {
+    margin:auto;
+   
+    padding-top:30px;
+    display: block;
+    
+    width:20%;
+    height:10%;
+    
+
+}
+
+
+/* Media */
+@media only screen and (max-width:480px){
+.start{
+    width:auto;
+}
+.levels{
+    width:auto;
+    display: flex;
+    flex-direction: column;
+}
+div img{
+    width:auto;
+}
+}
