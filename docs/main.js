@@ -2,7 +2,7 @@ $(function () {
 
 
     $(".hamburger").click(function(){
-    $(".mobile__menu").show();
+    $(".mobile__menu").toggle();
     });
 
     // $(".custom__img").onload(function(){
