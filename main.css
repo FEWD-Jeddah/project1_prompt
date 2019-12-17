@@ -1,0 +1,103 @@
+/* General */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(29, 29, 29);
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+/* Body */
+
+.pictures_items {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.pics {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+.mid_search {
+    height: 5em;
+}
+
+input {
+    width: 50%;
+}
+
+
+/* Header */
+
+
+/* .bgpic {
+    background-image: url('/imgs/justiceLeagueRebirth.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.5;
+    z-index: -1;
+    width: 100%;
+} */
+
+header {
+    height: 25em;
+    position: relative;
+    color: snow;
+}
+
+.top__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.web_nav a {
+    color: snow;
+    text-decoration: none;
+    margin-left: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+}
+
+.web_nav a:hover {
+    box-shadow: 0 0 2px 1px rgba(209, 188, 0, 0.7);
+}
+
+.text {
+    width: 30%;
+    margin-right: auto;
+    text-align: right;
+    margin-top: 50px;
+}
+
+.top__nav h4 {
+    font-size: 20px;
+    font-family: 'Anton', sans-serif;
+}
+
+
+/* Footer */
+
+footer {
+    color: snow;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
