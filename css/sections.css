@@ -1,0 +1,49 @@
+.text {
+  border: 5px solid rgb(172, 167, 167);
+  margin-right: 100px;
+  margin-left: 100px;
+  background-color: lightblue;
+  padding: 25px;
+  border-radius: 20px;
+  
+}
+
+
+.text h2 {
+  color: #318498;
+  padding: 8px;
+}
+
+
+
+.text p {
+  color: #318498;
+  text-align: justify;
+  padding-left: 25px;
+}
+
+
+li {
+  color: #318498
+}
+
+img {
+  border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

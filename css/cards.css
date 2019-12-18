@@ -1,0 +1,80 @@
+
+
+.cards {
+
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap:wrap;
+	background-color:#F0F8FF;
+
+}
+
+.card {
+	margin:13px;
+	flex: 0 1 calc(20% - 2em);
+	background-color:gray;
+}
+
+
+	background-color: rgba(255,255,255,0.3);
+	padding:5px;
+	margin:5px;
+	width:100%;
+	text-align:center;
+
+} */
+
+.card table {
+
+	margin:10px;
+	width:90%;
+
+}
+
+
+
+.card a, a:visited {
+
+	background-color: #4682B4;
+	color:#fff;
+	text-decoration:none;
+	display: block;
+	width:100%;
+    text-align: center;
+	padding:15px;
+	margin:0px;
+
+}
+
+.card a:visited {
+
+	background-color: #4682B4;
+	color:#fff;
+	text-decoration:none;
+	display: block;
+	width:100%;
+    text-align: center;
+	padding:15px;
+	margin:0px;
+
+}
+
+.card a:hover {
+
+	background-color:#18e043;
+
+}
+
+@media screen and (max-width: 640px) {
+
+	.cards {
+
+		flex-wrap:wrap;
+		
+		/*background-color: red;*/
+
+		flex-direction: column;
+		justify-content: space-around;
+
+	}
+
