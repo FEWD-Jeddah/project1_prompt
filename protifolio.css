@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color:rgb(225, 237, 241);
+    padding: 20px;
+    font-family: Arial;
+  }
+  
+  
+  .main {
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  h1 {
+    font-size: 50px;
+    word-break: break-all;
+    color: white;
+    background-blend-mode: multiply;
+    background: rgba(0,0,0,0.3);
+   
+    background-image: url('https://png.pngtree.com/thumb_back/fh260/back_pic/02/67/59/68578e3607f41f6.jpg')
+  }
+  h2 {
+      color: #555;
+  }
+  
+  p {
+      color: #555;
+  }
+  .row {
+    margin: 8px -16px;
+  }
+  
+  
+  .row,
+  .row > .column {
+    padding: 8px;
+  }
+  
+  
+  .column {
+    float: left;
+    width: 25%;
+  }
+  
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+
+  .content {
+    background-color: "";
+    padding: 10px;
+    
+
+  }
+
+  .content .co {
+    width: 200%;
+    height: -500%;
+  }
+  
+  
+  
+  @media screen and (max-width: 90px) {
+    .column {
+      width: 50%;
+    }
+  }
+  
+  
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+
+
+  footer div {
+    width: 297px;
+    margin: 0 auto;
+   
+    
+
+
+}
+
+footer div ul {
+    list-style: none;
+}
+
+footer div ul li {
+
+   display: inline;
+   margin: 16px 7px 0 0;
+}
+
+footer div ul li a {
+    color:black;
+    font-family: 'consola';
+    font-size: 11pt;
+    text-decoration: none;
+}
+
+footer .copyright p {
+
+    width: 170px;
+    margin: 0 auto;
+    color: black;
+    font-family: 'consola';
+    font-size: 9pt;
+    margin-top: 5px;
+
+
+ }
+
+ footer .copyright p a {
+     text-decoration: none;
+     color: black;
+
+ }
